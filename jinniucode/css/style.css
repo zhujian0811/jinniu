@@ -1,0 +1,85 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,big,cite,code,del,dfn,em,img,ins,q,samp,small,strong,var,b,i,
+dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,input{ margin:0; padding:0; border:0; outline:0;background:transparent; }
+ol,ul,li{ list-style:none outside;}
+i,em{ font-style: normal;}
+img{ border:none;font-size:0;vertical-align:top}
+a:hover { text-decoration: none;color: inherit;}
+a,button,input,div{-webkit-tap-highlight-color: transparent;text-decoration: none;color: inherit;-webkit-tap-highlight-color: rgba(0,0,0,0);border:none;}
+body{font-family: "Microsoft Yahei";background-color: #fff;}
+.clear-fix::after{content: '';width: 0;height: 0;clear:both;display: block;}
+.ellipsis{ white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+
+.main{width: 100%;margin: 0 auto;max-width: 640px;background:#fff;font: 14px/1.5 "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", Tahoma, Arial, STHeiti, sans-serif;}
+    .header{width: 100%;height: 0.8rem;padding-bottom: 0.05rem;background: url(../images/line.jpg) bottom repeat-x;background-size: 0.05rem 0.05rem;}
+        .header .logo{width: 2rem;height: 0.8rem;float: left}
+                .header .logo img{width: 2rem;height: 0.8rem;}
+        .header ul{float: right;margin-top: 0.4rem;}
+            .header ul li{font: 300 0.18rem/0.3rem  "Microsoft YaHei", "Helvetica Neue";color: #666;float: left;padding: 0 0.1rem;}
+                .header ul li a{color: #666;}     
+    .swiper{width: 100%;font-size: 0;}
+        .swiper img{width: 100%;} 
+    .tj-box{margin-top: 0.2rem;text-align: center;}
+        .tj-box ul{display: inline-block;}
+            .tj-box ul li{float: left;width: 1.25rem;}
+                .tj-box ul li.tj-item{display: inline-block;}
+                    .tj-box ul li .tj-item p{font: 300 0.18rem/0.4rem  "Arial";color: #f9b03c;text-align: center;}
+                        .tj-box ul li .tj-item p span{font-size: 0.28rem;padding-right: 0.02rem;}
+                    .tj-box ul li .tj-item .tj-name{font: 700 0.19rem/0.3rem  "Microsoft YaHei";color: #535353;}
+    .main h3{padding: 0.35rem 0.15rem 0.1rem 0.15rem;font: 700 0.2rem/0.4rem "Microsoft YaHei";color: #535353;}
+    .main h3 a{display: block;float: right;font: 300 0.16rem/0.4rem "Microsoft YaHei";color: #f9b03c;}
+    .main .project-list{position: relative;}
+        .project-list h4{padding: 0 0.1rem;overflow: hidden;}
+            .project-list h4 img{width: 1.35rem;height: 0.6rem;}
+            .project-list ul{padding: 0.15rem;}
+                .project-list ul li{margin-bottom: 0.2rem;}
+                    .project-list ul li .project-item{width: 5.6rem;border: solid 1px #d5d5d5;border-radius: 5px;box-shadow: 0 0 0.03rem #d5d5d5;padding: 0.2rem;margin: 0 auto;}
+                        .project-list ul li .project-item .pic{width: 2.2rem;height: 2rem;float: left;}
+                            .project-list ul li .project-item .pic img{width: 2.2rem;height: 2rem;}
+                        .project-list ul li .project-item .item-content{float: right;width: 3.2rem;}
+                            .project-item .item-content h5{font: 300 0.23rem/0.3rem  "Microsoft YaHei", "Helvetica Neue";color: #666;text-align: left;}
+                            .project-item .item-content .process{font: 300 0.36rem/0.5rem  'Arial';color: #f9b03c;text-align: right;}
+                            .project-item .item-content .item-rate{width: 100%;height: 0.1rem;border-radius: 0.05rem;overflow: hidden;background-color: #eaeaea;margin-bottom: 0.1rem;}
+                            .project-item .item-content .item-rate .item-rate-inner{height: 0.1rem;border-radius: 0.05rem;background-color: #f9b03c;}
+                            .project-item .item-content .detail-info{}
+                                .project-item .item-content .detail-info span{float: left;font: 300 0.14rem/0.2rem "Microsoft YaHei", "Helvetica Neue";color: #666;}
+                                    .project-item .item-content .detail-info span.mb{width: 1.15rem;text-align: left;}
+                                    .project-item .item-content .detail-info span.je{width: 1rem;text-align: center;}
+                                    .project-item .item-content .detail-info span.ts{width: 1.02rem;float: right;text-align: right;}
+                                        .project-item .item-content .detail-info span em{color: #f9b03c;}
+                            .project-item .item-content .zc-btn{width: 1.35rem;height: 0.35rem;background-color: #f9b03c;font: 300 0.14rem/0.35rem  "Microsoft YaHei", "Helvetica Neue";color: #fff;text-align: center;border-radius: 0.05rem;margin-left: 1.8rem;margin-top: 0.1rem;}
+    .main .notice{width: 5.9rem;padding: 0.2rem 0.15rem;border: solid 1px #d5d5d5;border-radius: 5px;box-shadow: 0 0 0.03rem #d5d5d5;margin:  0.2rem auto;}
+        .main .notice .notice-left{float: left;font: 300 0.14rem/0.26rem "Microsoft YaHei", "Helvetica Neue";color: #c2c2c2;}
+            .main .notice .notice-left .space{padding: 0 0.15rem;}
+        .main .notice .notice-right{float: right;padding: 0rem 0.14rem;font: 300 0.14rem/0.2rem "Microsoft YaHei", "Helvetica Neue";color: #c2c2c2;border: solid 1px #c2c2c2;border-radius: 0.11rem;}
+    .main .hydt h4{padding: 0 0.1rem;overflow: hidden;}
+        .hydt h4 img{width: 1.35rem;height: 0.6rem;}
+            .hydt ul{}
+                .hydt ul li .dt{width: 100%;position: relative;}
+                .hydt ul li p{width: 6.1rem;padding: 0.1rem 0 0.15rem 0;border-top: solid 1px #c2c2c2;font: 300 0.18rem/0.3rem  "Microsoft YaHei", "Helvetica Neue";color: #666;height: 0.6rem;margin: 0 auto;}
+                .hydt ul li i{position: absolute;right: 0.15rem;bottom: 0.15rem;font: 300 0.16rem/0.3rem  "Microsoft YaHei";color: #c2c2c2;}
+        .service{padding-left: 0.1rem;border-top: solid 1px #c2c2c2;padding: 0.3rem 0;}
+        .service .serve-item{float: left;background: url(../images/service.jpg) no-repeat;height: 0.58rem;padding-left: 0.9rem;background-size: 0.7rem auto;width: 1.2rem;}
+            .service .serve-item h4{font: 300 0.16rem/0.26rem "Microsoft YaHei", "Helvetica Neue";color: #666;}
+            .service .serve-item p{font: 300 0.12rem/0.16rem "Microsoft YaHei", "Helvetica Neue";color: #c2c2c2;}
+            .service .serve-item.serve-1{background-position: 0.1rem 0;}
+            .service .serve-item.serve-2{background-position: 0 -0.57rem;}
+            .service .serve-item.serve-3{background-position: 0 -1.16rem;}
+        p.copyright{font: 300 0.18rem/0.4rem "Microsoft YaHei", "Helvetica Neue";color: #c2c2c2;text-align: center;}
+
+
+
+.swiper-container {width: 100%;height: 100%;}
+.swiper-slide {text-align: center;font-size: 18px;background: #fff;/* Center slide text vertically */display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;     -webkit-box-align: center;-ms-flex-align: center-webkit-align-items: center;align-items: center;}
+.swiper-slide img{width: 100%;}
+.project-list .swiper-slide{display: block;}
+.project-list .swiper-container .swiper-pagination{left: 0;bottom: 0;width: 7.5rem;height: 0.95rem;background-color: #dddddd;text-align: left;padding-left: 0.7rem;}
+.project-list .swiper-container{padding-bottom: 0.95rem;}
+.project-list .left-bg{position: absolute;display: block;width: 0.2rem;height: 0.95rem;bottom: 0.15rem;left: 0;background-color: #dddddd;z-index: 999;}
+.project-list .right-bg{position: absolute;display: block;width: 0.2rem;height: 0.95rem;bottom: 0.15rem;right: 0;background-color: #dddddd;z-index: 999;}
+.project-list .more-project{position: absolute;font: 300 0.26rem/0.40rem  "Microsoft YaHei", "Helvetica Neue";color: #f9b03c;right: 0.2rem;bottom: 0.42rem;z-index: 1000;}
+.project-list .swiper-pagination-bullet{width: 0.24rem;height: 0.24rem;border-radius: 0.12rem;}
+.project-list .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0.35rem 0.1rem;}
+.swiper-pagination-bullet-active{background: #f9b03c;}
+.project-list .swiper-button-next,.project-list .swiper-button-prev{bottom: 0.21rem;top: auto;width: 0.25rem;height: 0.525rem;}
+.project-list .swiper-button-next{background: url(../images/next.png) no-repeat;background-size: contain;right: 2rem;}
+.project-list .swiper-button-prev{background: url(../images/previous.png) no-repeat;background-size: contain;left: 0.1rem;}
