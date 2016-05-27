@@ -19,6 +19,7 @@ body{font-family: "Microsoft Yahei";background-color: #fff;}
     .swiper{width: 100%;font-size: 0;}
         .swiper img{width: 100%;} 
     .tj-box{margin-top: 0.16rem;text-align: center;}
+ .tj-box{margin-top: 0.16rem;text-align: center;}
         .tj-box ul{}
             .tj-box ul li{float: left;width: 1.44rem;}
             .tj-box ul li:first-child{width: 0.8rem;margin-right: 0.23rem;}
