@@ -18,14 +18,16 @@ body{font-family: "Microsoft Yahei";background-color: #fff;}
                 .header ul li a{color: #666;}     
     .swiper{width: 100%;font-size: 0;}
         .swiper img{width: 100%;} 
-    .tj-box{margin-top: 0.2rem;text-align: center;}
-        .tj-box ul{display: inline-block;}
-            .tj-box ul li{float: left;width: 1.25rem;}
+    .tj-box{margin-top: 0.16rem;text-align: center;}
+        .tj-box ul{}
+            .tj-box ul li{float: left;width: 1.44rem;}
+            .tj-box ul li:first-child{width: 0.8rem;margin-right: 0.23rem;}
+            .tj-box ul li:last-child{width: 0.8rem;float: right;}
                 .tj-box ul li.tj-item{display: inline-block;}
-                    .tj-box ul li .tj-item p{font: 300 0.18rem/0.4rem  "Arial";color: #f9b03c;text-align: center;}
-                        .tj-box ul li .tj-item p span{font-size: 0.28rem;padding-right: 0.02rem;}
-                    .tj-box ul li .tj-item .tj-name{font: 700 0.19rem/0.3rem  "Microsoft YaHei";color: #535353;}
-    .main h3{padding: 0.35rem 0.15rem 0.1rem 0.15rem;font: 700 0.2rem/0.4rem "Microsoft YaHei";color: #535353;}
+                    .tj-box ul li .tj-item p{font: 300 0.18rem/0.25rem  "Microsoft YaHei";color: #f8b641;text-align: center;}
+                        .tj-box ul li .tj-item p span{font-size: 0.22rem;padding-right: 0.02rem;}
+                    .tj-box ul li .tj-item .tj-name{font: 300 0.18rem/0.3rem  "Microsoft YaHei";color: #535353;}
+    .main h3{padding: 0.25rem 0.15rem 0.1rem 0.15rem;font: 700 0.2rem/0.4rem "Microsoft YaHei";color: #535353;}
     .main h3 a{display: block;float: right;font: 300 0.16rem/0.4rem "Microsoft YaHei";color: #f9b03c;}
     .main .project-list{position: relative;}
         .project-list h4{padding: 0 0.1rem;overflow: hidden;}
@@ -47,7 +49,7 @@ body{font-family: "Microsoft Yahei";background-color: #fff;}
                                     .project-item .item-content .detail-info span.ts{width: 1.02rem;float: right;text-align: right;}
                                         .project-item .item-content .detail-info span em{color: #f9b03c;}
                             .project-item .item-content .zc-btn{width: 1.35rem;height: 0.35rem;background-color: #f9b03c;font: 300 0.14rem/0.35rem  "Microsoft YaHei", "Helvetica Neue";color: #fff;text-align: center;border-radius: 0.05rem;margin-left: 1.8rem;margin-top: 0.1rem;}
-    .main .notice{width: 5.9rem;padding: 0.2rem 0.15rem;border: solid 1px #d5d5d5;border-radius: 5px;box-shadow: 0 0 0.03rem #d5d5d5;margin:  0.2rem auto;}
+    .main .notice{width: 5.9rem;padding: 0.2rem 0.15rem;border: solid 1px #d5d5d5;border-radius: 5px;box-shadow: 0 0 0.03rem #d5d5d5;margin:  0.2rem auto 0.16rem;}
         .main .notice .notice-left{float: left;font: 300 0.14rem/0.26rem "Microsoft YaHei", "Helvetica Neue";color: #c2c2c2;}
             .main .notice .notice-left .space{padding: 0 0.15rem;}
         .main .notice .notice-right{float: right;padding: 0rem 0.14rem;font: 300 0.14rem/0.2rem "Microsoft YaHei", "Helvetica Neue";color: #c2c2c2;border: solid 1px #c2c2c2;border-radius: 0.11rem;}
@@ -72,14 +74,15 @@ body{font-family: "Microsoft Yahei";background-color: #fff;}
 .swiper-slide {text-align: center;font-size: 18px;background: #fff;/* Center slide text vertically */display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;     -webkit-box-align: center;-ms-flex-align: center-webkit-align-items: center;align-items: center;}
 .swiper-slide img{width: 100%;}
 .project-list .swiper-slide{display: block;}
-.project-list .swiper-container .swiper-pagination{left: 0;bottom: 0;width: 7.5rem;height: 0.95rem;background-color: #dddddd;text-align: left;padding-left: 0.7rem;}
-.project-list .swiper-container{padding-bottom: 0.95rem;}
-.project-list .left-bg{position: absolute;display: block;width: 0.2rem;height: 0.95rem;bottom: 0.15rem;left: 0;background-color: #dddddd;z-index: 999;}
-.project-list .right-bg{position: absolute;display: block;width: 0.2rem;height: 0.95rem;bottom: 0.15rem;right: 0;background-color: #dddddd;z-index: 999;}
-.project-list .more-project{position: absolute;font: 300 0.26rem/0.40rem  "Microsoft YaHei", "Helvetica Neue";color: #f9b03c;right: 0.2rem;bottom: 0.42rem;z-index: 1000;}
-.project-list .swiper-pagination-bullet{width: 0.24rem;height: 0.24rem;border-radius: 0.12rem;}
-.project-list .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0.35rem 0.1rem;}
-.swiper-pagination-bullet-active{background: #f9b03c;}
-.project-list .swiper-button-next,.project-list .swiper-button-prev{bottom: 0.21rem;top: auto;width: 0.25rem;height: 0.525rem;}
+.project-list .swiper-container .swiper-pagination{left: 0;bottom: 0;width: 5.65rem;height: 0.8rem;background-color: #dddddd;text-align: left;padding-left: 0.45rem;}
+.project-list .swiper-container{padding-bottom: 0.8rem;}
+.project-list .left-bg{position: absolute;display: block;width: 0.2rem;height: 0.8rem;bottom: 0.15rem;left: 0;background-color: #dddddd;z-index: 999;}
+.project-list .right-bg{position: absolute;display: block;width: 0.2rem;height: 0.8rem;bottom: 0.15rem;right: 0;background-color: #dddddd;z-index: 999;}
+.project-list .more-project{position: absolute;font: 300 0.26rem/0.40rem  "Microsoft YaHei", "Helvetica Neue";color: #f9b03c;right: 0.25rem;bottom: 0.35rem;z-index: 1000;height: 0.4rem;}
+.swiper-pagination-bullet{width: 0.15rem;height: 0.15rem;border-radius: 0.075rem;}
+.project-list .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0.325rem 0.15rem;}
+.project-list .swiper-pagination-bullet.swiper-pagination-bullet-active,.swiper-pagination-bullet.swiper-pagination-bullet-active{background: #f9b03c;}
+.project-list .swiper-button-next,.project-list .swiper-button-prev{bottom: 0.19rem;top: auto;width: 0.2rem;height: 0.42rem;}
 .project-list .swiper-button-next{background: url(../images/next.png) no-repeat;background-size: contain;right: 2rem;}
 .project-list .swiper-button-prev{background: url(../images/previous.png) no-repeat;background-size: contain;left: 0.1rem;}
+.project-list .swiper-pagination-bullet{background: #fff;opacity: 1;}

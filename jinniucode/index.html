@@ -485,6 +485,68 @@ _winWidth >= 640 ? _style.fontSize = "100px" : _style.fontSize = _winWidth/6.4 +
                             </a>
                         </li>
                     </div>
+                    <div class="swiper-slide">
+                        <li>
+                            <a href="">
+                                <div class="project-item clear-fix">
+                                    <div class="pic">
+                                        <img src="images/1463647533047.jpg">
+                                    </div>
+                                    <div class="item-content">
+                                        <h5>共商同盟1818邮币卡财富俱乐部会员招募</h5>
+                                        <p class="process">4.89%</p>
+                                        <div class="item-rate"><div class="item-rate-inner" style="width: 28.67%;"></div></div>
+                                        <div class="detail-info clear-fix">
+                                            <span class="mb">目标金额<em>2000</em>万</span>
+                                            <span class="je">已募金额<em>0</em>元</span>
+                                            <span class="ts">预热天数<em>40</em>天</span>
+                                        </div>
+                                        <div class="zc-btn">立即认筹</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="project-item clear-fix">
+                                    <div class="pic">
+                                        <img src="images/1463647533047.jpg">
+                                    </div>
+                                    <div class="item-content">
+                                        <h5>共商同盟1818邮币卡财富俱乐部会员招募</h5>
+                                        <p class="process">4.89%</p>
+                                        <div class="item-rate"><div class="item-rate-inner" style="width: 28.67%;"></div></div>
+                                        <div class="detail-info clear-fix">
+                                            <span class="mb">目标金额<em>2000</em>万</span>
+                                            <span class="je">已募金额<em>0</em>元</span>
+                                            <span class="ts">预热天数<em>40</em>天</span>
+                                        </div>
+                                        <div class="zc-btn">立即认筹</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="project-item clear-fix">
+                                    <div class="pic">
+                                        <img src="images/1463647533047.jpg">
+                                    </div>
+                                    <div class="item-content">
+                                        <h5>共商同盟1818邮币卡财富俱乐部会员招募</h5>
+                                        <p class="process">4.89%</p>
+                                        <div class="item-rate"><div class="item-rate-inner" style="width: 28.67%;"></div></div>
+                                        <div class="detail-info clear-fix">
+                                            <span class="mb">目标金额<em>2000</em>万</span>
+                                            <span class="je">已募金额<em>0</em>元</span>
+                                            <span class="ts">预热天数<em>40</em>天</span>
+                                        </div>
+                                        <div class="zc-btn">立即认筹</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
@@ -564,6 +626,11 @@ _winWidth >= 640 ? _style.fontSize = "100px" : _style.fontSize = _winWidth/6.4 +
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev'
         });
+         $(".swiper-button-next").each(function(){
+            var num = $(this).siblings(".swiper-pagination").find(".swiper-pagination-bullet").length;
+            var rightnum = parseFloat(5.3-0.45*num).toFixed(2);
+            $(this).css("right",rightnum+"rem");
+         })
     })
 </script>
 </html>
